@@ -11,7 +11,6 @@ def invokeBrowser():
 t1 = threading.Thread(target=invokenpm, args=())
 #t2 = threading.Thread(target=invokeBrowser, args=())
 #t2.start()
-print("done with execution")
 enter_view = input("view number")
 if(enter_view == 1 ):
     sh.cd('/home/upadhyatejas/Hackday/Index')
@@ -19,7 +18,7 @@ if(enter_view == 1 ):
     t1 = threading.Thread(target=invokenpm, args=())
     t1.start()
 elif (enter_view == 2):
-    sh.cd('/home/upadhyatejas/Hackday/Smart_learning')
+    sh.cd('/home/upadhyatejas/Hackday/Lesson-Information')
     print(sh.pwd())
     t1 = threading.Thread(target=invokenpm, args=())
     t1.start()
