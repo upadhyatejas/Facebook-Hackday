@@ -10,7 +10,7 @@ export default class Screen1 extends React.Component {
   render() {
     // Reference the count in our UI
     return (
-      <View style={{ flexDirection: 'row',backgroundColor:'rgba(255,255,255,0.4'}}>
+      <View style={{ flexDirection: 'row',backgroundColor:'rgba(255,255,255,0.6)'}}>
         <View style={{justifyContent:'center',alignItems:'center'}}>
           <Image style={{width:300,height:500,margin:10}} source={asset('bengal-gazette.jpg')} ></Image>
         </View>

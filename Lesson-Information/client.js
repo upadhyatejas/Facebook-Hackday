@@ -32,13 +32,13 @@ function init(bundle, parent, options = {}) {
     firstsurface.setShape(Surface.SurfaceShape.Flat)
     firstsurface.setAngle(0,0)
     secondsurface.setShape(Surface.SurfaceShape.Flat)
-    secondsurface.setAngle(-2*Math.PI/5,0)
+    secondsurface.setAngle(Math.PI/2,0)
     thirdsurface.setShape(Surface.SurfaceShape.Flat)
-    thirdsurface.setAngle(-4*Math.PI/5,0)
+    thirdsurface.setAngle(Math.PI,0)
     fourthsurface.setShape(Surface.SurfaceShape.Flat)
-    fourthsurface.setAngle(Math.PI/5,0)
+    fourthsurface.setAngle(-Math.PI/2,0)
     buttonsurface.setShape(Surface.SurfaceShape.Flat)
-    buttonsurface.setAngle(3*Math.PI/5,0)
+    buttonsurface.setAngle(5*Math.PI/6,0)
 
 
   // Render your app content to the default cylinder surface
@@ -54,8 +54,16 @@ function init(bundle, parent, options = {}) {
     r360.createRoot('Screen3'),
     thirdsurface
   );
+  r360.renderToSurface(
+    r360.createRoot('Screen4'),
+    fourthsurface
+  );
+  r360.renderToSurface(
+    r360.createRoot('buttonpage'),
+    buttonsurface
+  );
   // Load the initial environment
-  r360.compositor.setBackground(r360.getAssetURL('360_world.jpg'));
+  r360.compositor.setBackground(r360.getAssetURL('35230450492_4f44c1a4cb_o.jpg'));
 }
 
 window.React360 = {init};

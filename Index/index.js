@@ -19,7 +19,7 @@ export default class hello_react_360 extends React.Component {
           <Text style={styles.greets}>
             1.History of India
             {'\n'}
-            2.Dot-Com Bubble
+            2.Colonisation of India
           </Text>
         </View>
       </View>
