@@ -19,21 +19,21 @@ export default class Hello360 extends React.Component {
           onClick={this._incrementCount1}
         style={styles.greetingBox}>
           <Text style={styles.greeting}>
-            A
+            Next
           </Text>
           </VrButton>
           <VrButton 
           onClick={this._incrementCount2}
         style={styles.greetingBox}>
           <Text style={styles.greeting}>
-            B
+            Back
           </Text>
           </VrButton>
           <VrButton 
           onClick={this._incrementCount3}
         style={styles.greetingBox}>
           <Text style={styles.greeting}>
-            I
+            Index
           </Text>
           </VrButton>
       </View>
