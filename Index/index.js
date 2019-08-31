@@ -11,6 +11,8 @@ export default class hello_react_360 extends React.Component {
   render() {
     return (
       //View styles are used for formatting the surfaces
+      //Inside the text tag it doesnt allow standard html text formatting tags inside it
+      //here styles is a formatting object of a surface which allows formatting of different objects/ aspects of it
       <View style={styles.panel}>
         <View style={styles.greetingBox}>
           <Text style={styles.greeting}>

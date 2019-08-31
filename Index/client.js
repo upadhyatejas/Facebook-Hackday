@@ -16,7 +16,7 @@ function init(bundle, parent, options = {}) {
     r360.getDefaultSurface()
   );
 
-  // Load the initial environment
+  // Load the initial environment with a full 360 image
   r360.compositor.setBackground(r360.getAssetURL('Virupaksha_Temple_Hampi_Panoramic_View (1).jpg'));
 }
 
