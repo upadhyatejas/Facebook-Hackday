@@ -9,8 +9,8 @@ def invokeBrowser():
     os.system("google-chrome http://localhost:8081/index.html")
 
 t1 = threading.Thread(target=invokenpm, args=())
-#t2 = threading.Thread(target=invokeBrowser, args=())
-#t2.start()
+t2 = threading.Thread(target=invokeBrowser, args=())
+t2.start()
 enter_view = input("view number")
 if(enter_view == 1 ):
     sh.cd('/home/upadhyatejas/Hackday/Index')

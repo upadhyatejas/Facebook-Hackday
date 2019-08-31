@@ -6,9 +6,11 @@ import {
   View,
 } from 'react-360';
 
+//here the react360 surface is rendered with necessary specifications
 export default class hello_react_360 extends React.Component {
   render() {
     return (
+      //View styles are used for formatting the surfaces
       <View style={styles.panel}>
         <View style={styles.greetingBox}>
           <Text style={styles.greeting}>
